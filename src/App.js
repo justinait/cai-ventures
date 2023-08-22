@@ -6,7 +6,7 @@ function App() {
     <BrowserRouter>
       {/* <Routes> */}
         {/* <Route path='/' element={< Home />} /> */}
-        cai ventures
+        CAI VENTURES
         
       {/* </Routes> */}
     </BrowserRouter>
