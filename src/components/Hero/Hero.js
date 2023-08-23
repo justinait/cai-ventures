@@ -20,7 +20,7 @@ function Hero() {
             <div className='heroPresentationImage'>
                 <img src='https://cdn-icons-png.flaticon.com/512/1760/1760560.png' width={150}/>
                 <p>“El momento para empezar a 
-                <strong> cumplir tu sueño</strong> es ahora”</p>
+                <strong><em> cumplir tu sueño</em></strong> es ahora”</p>
             </div>
         </div>
         
