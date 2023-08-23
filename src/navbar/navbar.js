@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import './navbar.css';
 import {  NavLink, Link } from 'react-router-dom';
-import { Container, Row } from 'react-bootstrap';
+import { Container, Row, Image } from 'react-bootstrap';
+import Logo from '../../src/Images/logo.png';
 
 
 const NavBar = () => {
@@ -22,13 +23,14 @@ const NavBar = () => {
 
 
   return (
-    <Container>
-      <Row className='log' xxl={12} xl={12} lg={12}>
+    <Container className='containerNav'>
       <div className="navbar__logo">
             <NavLink to="/">
-              Logo
+              <Image src={Logo} />
             </NavLink>
-          </div>
+      </div>
+      <Row className='log' xxl={12} xl={12} lg={12}>
+      
         <nav className={`navbar ${isOpen ? 'open' : ''}`}xxl={12} xl={12} lg={12}>
           
           <button className={`navbar__toggle-btn`} onClick={toggleNavbar}>
