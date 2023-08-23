@@ -4,7 +4,7 @@
 
 .heroContainer2, .heroContainer3 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-bottom: 10rem;
 }
 
@@ -21,12 +21,17 @@
     color: var(--main, var(--colors-main-friendly-blue, #3349A1));
 }
 
+.specialTextHome {
+    font-size: larger;
+    font-weight: 400;
+}
 
 .heroWho {
-    width: 19.125rem;
+    width: 23rem;
     text-align: justify;
 }
 
 h3 {
-    font-size: 3.5rem;
+    font-size: 2rem !important;
+    font-weight: 800 !important;
 }
